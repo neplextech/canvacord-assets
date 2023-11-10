@@ -2,11 +2,11 @@
   "name": "cdn",
   "version": "1.0.0",
   "description": "",
-  "main": "mod.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node mod.js",
-    "run": "pm2 start mod.js --name cdn -i 2 "
+    "start": "node index.js",
+    "run": "pm2 start index.js --name cdn -i 2 "
   },
   "keywords": [],
   "author": "",
